@@ -11,7 +11,9 @@ A modular GitHub Copilot custom agent for building, refactoring, testing, review
 
 The Secure Web Application Developer Assistant integrates application security into everyday software development rather than treating it as a separate, post-development activity. It follows a shift-left security approach in which security, privacy, reliability, maintainability, and accessibility are acceptance criteria for every applicable change.
 
-Version 2.0 modernizes the original standalone agent into a modular configuration consisting of **one custom agent, two security policy files, and six specialized skills**. The agent remains framework-independent and applies security controls proportionally to the task, application architecture, and actual risk. Keep in mind that I never actually released version 1 because it's not good.
+Version 2.0 modernizes the original standalone agent into a modular configuration consisting of **one custom agent, two security policy files, and six specialized skills**. The agent remains framework-independent and applies security controls proportionally to the task, application architecture, and actual risk. 
+
+**Keep in mind that I never actually released version 1 because it's not good.**
 
 ## Features
 
