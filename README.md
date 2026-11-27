@@ -93,7 +93,7 @@ Mandatory safeguards remain in the agent itself. Supporting policies must be rea
 
 | File | Description |
 | --- | --- |
-| [secure-coding.agent.md](.github/agents/secure-coding.agent.md) | Central agent definition, operational safeguards, workflow selection, and verification requirements. |
+| [secure-coding.agent.md](http://github.com/PoseidonLEL/Secure-Coding-Agent/blob/main/agents/secure-coding.agent.md) | Central agent definition, operational safeguards, workflow selection, and verification requirements. |
 | [secure-coding.instructions.md](.github/instructions/secure-coding.instructions.md) | Core security policy covering OWASP risks, injection prevention, cryptography, configuration, dependencies, logging, error handling, and engineering quality. |
 | [web-application-security.instructions.md](.github/instructions/web-application-security.instructions.md) | Full-stack security policy covering identity, access control, frontend, backend, APIs, persistence, caching, and file handling. |
 
