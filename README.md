@@ -150,7 +150,7 @@ The resulting directory should contain `agents`, `instructions`, and `skills` di
 
 Personal configuration locations and tool availability may differ by IDE, harness, and remote development environment. Use one installation method initially to avoid duplicate names.
 
-See [INSTALL.md](INSTALL.md) for the complete installation tree, configuration notes, troubleshooting, and a read-only smoke test.
+See [INSTALL.md](https://github.com/PoseidonLEL/Secure-Coding-Agent/blob/main/INSTALL.md) for the complete installation tree, configuration notes, troubleshooting, and a read-only smoke test.
 
 ## Usage
 
