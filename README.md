@@ -94,8 +94,8 @@ Mandatory safeguards remain in the agent itself. Supporting policies must be rea
 | File | Description |
 | --- | --- |
 | [secure-coding.agent.md](http://github.com/PoseidonLEL/Secure-Coding-Agent/blob/main/agents/secure-coding.agent.md) | Central agent definition, operational safeguards, workflow selection, and verification requirements. |
-| [secure-coding.instructions.md](.github/instructions/secure-coding.instructions.md) | Core security policy covering OWASP risks, injection prevention, cryptography, configuration, dependencies, logging, error handling, and engineering quality. |
-| [web-application-security.instructions.md](.github/instructions/web-application-security.instructions.md) | Full-stack security policy covering identity, access control, frontend, backend, APIs, persistence, caching, and file handling. |
+| [secure-coding.instructions.md](https://github.com/PoseidonLEL/Secure-Coding-Agent/blob/main/instructions/secure-coding.instructions.md) | Core security policy covering OWASP risks, injection prevention, cryptography, configuration, dependencies, logging, error handling, and engineering quality. |
+| [web-application-security.instructions.md](https://github.com/PoseidonLEL/Secure-Coding-Agent/blob/main/instructions/web-application-security.instructions.md) | Full-stack security policy covering identity, access control, frontend, backend, APIs, persistence, caching, and file handling. |
 
 The policy files intentionally omit `applyTo` patterns. The custom agent explicitly reads both policies rather than deliberately applying the entire security policy to every Copilot agent in a repository. Actual discovery and activation behavior depends on the host environment.
 
@@ -103,12 +103,12 @@ The policy files intentionally omit `applyTo` patterns. The custom agent explici
 
 | Skill | When to use |
 | --- | --- |
-| [repository-discovery](.github/skills/repository-discovery/SKILL.md) | Working with an unfamiliar repository or application component. |
-| [threat-modeling](.github/skills/threat-modeling/SKILL.md) | Changing trust boundaries, identity, sensitive data, integrations, or security-sensitive workflows. |
-| [secure-implementation](.github/skills/secure-implementation/SKILL.md) | Creating, modifying, or refactoring application code. |
-| [security-code-review](.github/skills/security-code-review/SKILL.md) | Reviewing code, assessing suspected vulnerabilities, or reviewing security-sensitive changes. |
-| [security-testing](.github/skills/security-testing/SKILL.md) | Designing and updating tests for security-sensitive behavior. |
-| [security-verification](.github/skills/security-verification/SKILL.md) | Verifying substantive development changes and reporting validation evidence. |
+| [repository-discovery](https://github.com/PoseidonLEL/Secure-Coding-Agent/blob/main/skills/repository-discovery/SKILL.md) | Working with an unfamiliar repository or application component. |
+| [threat-modeling](https://github.com/PoseidonLEL/Secure-Coding-Agent/blob/main/skills/threat-modeling/SKILL.md) | Changing trust boundaries, identity, sensitive data, integrations, or security-sensitive workflows. |
+| [secure-implementation](https://github.com/PoseidonLEL/Secure-Coding-Agent/blob/main/skills/secure-implementation/SKILL.md) | Creating, modifying, or refactoring application code. |
+| [security-code-review](https://github.com/PoseidonLEL/Secure-Coding-Agent/blob/main/skills/security-code-review/SKILL.md) | Reviewing code, assessing suspected vulnerabilities, or reviewing security-sensitive changes. |
+| [security-testing](https://github.com/PoseidonLEL/Secure-Coding-Agent/blob/main/skills/security-testing/SKILL.md) | Designing and updating tests for security-sensitive behavior. |
+| [security-verification](https://github.com/PoseidonLEL/Secure-Coding-Agent/blob/main/skills/security-verification/SKILL.md) | Verifying substantive development changes and reporting validation evidence. |
 
 ## Getting started
 
